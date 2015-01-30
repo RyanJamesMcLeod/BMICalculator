@@ -1,0 +1,88 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="@integer/one"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bmicalculator.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="left"
+        android:text="@string/weightLabel3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/weightText"
+        android:layout_gravity="fill_horizontal"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_gravity="left"
+        android:text="@string/heightLabel4"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/heightText"
+        android:layout_gravity="fill_horizontal"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_gravity="left"
+        android:onClick="calculateClickHandler"
+        android:text="@string/calculateButton" />
+
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_gravity="left"
+        android:text="@string/emptyString"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_gravity="left"
+        android:text="@string/weightLabel2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/weightText2"
+        android:layout_gravity="fill_horizontal"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_gravity="left"
+        android:text="@string/heightLabel3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/heightText2"
+        android:layout_gravity="fill_horizontal"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculateButtonE"
+        android:layout_gravity="left"
+        android:onClick="calculateClickHandlerE"
+        android:text="@string/calculateButtonE" />
+
+    <TextView
+        android:id="@+id/resultLabelE"
+        android:layout_gravity="left"
+        android:text="@string/emptyStringE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</GridLayout>

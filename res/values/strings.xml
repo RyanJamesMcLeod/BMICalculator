@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMICalculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="yourWeight">Your Weight</string>
+    <string name="weightLabel">Your Weight</string>
+    <string name="heightLabel">Your Height</string>
+    <string name="calculateButton">Calculate</string>
+    <string name="emptyString"></string>
+    <string name="weightLabel2">Your Weight (Pounds)</string>
+    <string name="heightLabel2">Your Height (Inches</string>
+    <string name="calculateButtonE">Calculate (English)</string>
+    <string name="emptyStringE"></string>
+    <string name="heightLabel3">Your Height (Inches)</string>
+    <string name="weightLabel3">Your Weight (Kilograms)</string>
+    <string name="heightLabel4">Your Height (Meters)</string>
+
+</resources>
